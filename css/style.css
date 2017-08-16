@@ -1,0 +1,68 @@
+body {	
+	font-family: 'PT Sans Narrow', 'Aray', sans-serif;
+	text-align: center;	
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+
+	background: #000000 url(../img/bg.jpg) no-repeat;
+	color: #ffffff;
+}
+
+h1 {
+	font-family: 'PT Sans Narrow', 'Aray', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 30px;
+	line-height: 42px;
+	text-transform: uppercase;
+
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-family: 'PT Sans Narrow', 'Aray', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 24px;
+	line-height: 30px;
+	text-transform: uppercase;
+
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+h3 {
+	font-family: 'PT Sans Narrow', 'Aray', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+
+	margin-bottom: 15px;
+}
+
+h3 .catalog__category {
+	text-transform: capitalize;
+}
+
+a {
+	text-decoration: none;
+}
+
+.visually-hidden {
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
