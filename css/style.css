@@ -6,8 +6,7 @@ body {
 	line-height: 24px;
 	text-transform: uppercase;
 
-	background: #000000 url(../img/bg.jpg) no-repeat;
-	color: #ffffff;
+	background: #ffffff url(../img/bg.jpg) no-repeat;	
 }
 
 h1 {
@@ -37,7 +36,6 @@ h2 {
 h3 {
 	font-family: 'PT Sans Narrow', 'Aray', sans-serif;
 	font-weight: bold;
-	color: #000000;
 	font-size: 14px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -51,6 +49,23 @@ h3 .catalog__category {
 
 a {
 	text-decoration: none;
+}
+
+.features {
+	color: #ffffff;
+}
+
+.content {
+	background: #000000 url(../img/bg-content.jpg) repeat;
+}
+
+.main-footer {
+	background: #ffffff url(../img/bg-footer.jpg) repeat;
+}
+
+.footer-contacts,
+.footer-social {
+	color: #ffffff;
 }
 
 .visually-hidden {
